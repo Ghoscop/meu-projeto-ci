@@ -1,7 +1,7 @@
 const saudacao = require('./hello');
 
 const resultado = saudacao("Mundo");
-const esperado = "Hello, Mundo!"; 
+const esperado = "Olá, Mundo!";
 if (resultado !== esperado) {
 console.error(` FALHA: esperado "${esperado}", mas
 recebeu "${resultado}"`);
