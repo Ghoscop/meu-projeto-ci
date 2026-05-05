@@ -8,3 +8,9 @@ recebeu "${resultado}"`);
 process.exit(1); 
 }
 console.log(" Todos os testes passaram!");
+
+const resultadoVazio = saudacao("");
+if (resultadoVazio !== "Olá, !") {
+console.error(` FALHA: teste de string vazia`);
+process.exit(1);
+}
